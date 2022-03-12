@@ -1,0 +1,63 @@
+#apps{
+    width: 100%;
+    margin-top: 3rem;
+}
+.apps-container{
+    width: 85%;
+    margin: auto;
+    height: 323px;
+    background: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.app-shapes{
+    position: absolute;
+    right: 0;
+}
+.apps-container h3{
+    font-size: 3rem;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin:3rem 1rem 1rem 6rem;
+}
+.apps-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 6rem;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+.apps-footer p{
+    width: 416px;
+    height: 52px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    text-align: start;
+}
+.apps-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    position: absolute;
+    right: 20px;
+}
+.apps-footer .app-store{
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+
+}
+.apps-footer .google-play{
+    width: 180px;
+    height: 62px;
+    border-radius: 10px;
+}

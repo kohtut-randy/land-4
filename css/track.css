@@ -1,0 +1,72 @@
+#track{
+    width: 100%;
+    background-color: rgba(43, 89, 255, 0.03);
+}
+.track-container{
+    width: 85%;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.track-mobile{
+    width: 30%;
+    display: flex;
+    left: 65px;
+}
+.track-mobile .e57{
+    position: absolute;
+    width: 200px;
+    left: 0px;
+    bottom: 0px;
+    z-index: -2;
+}
+.track-mobile .iphone{
+    position: absolute;
+    width: 280px;
+    left: 100px;
+    top: 90px;
+    border-radius: 20px;
+    z-index: -1;
+}
+.track-mobile .e58{
+    position: absolute;
+    width: 200px;
+    left: 240px;
+    top: 170px;
+    z-index: -2;
+} 
+.track-text{
+    width: 40%;
+    position: absolute;
+    right:0px;
+}
+.track-text p{
+    font-size: 0.8rem;
+    width: 85%;
+    line-height: 26px;
+    text-align: start;
+    color: rgba(0, 11, 51, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin: 1rem 0;
+    line-height: 2rem;
+}
+.track-text h6{
+    color: rgba(0, 187, 152, 1);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.track-text h5{
+    font-size: 2.5rem;
+    line-height: 58px;
+    text-align: start;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 2rem 0;
+}

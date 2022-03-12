@@ -1,0 +1,12 @@
+#company{
+    width: 100%;
+}
+.company-container{
+    width: 85%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

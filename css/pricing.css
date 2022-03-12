@@ -1,0 +1,114 @@
+#pricing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+.price-text h6{
+    font-size: 1rem;
+    color: rgba(0, 187, 152, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.price-text h3{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.price-text p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color:rgba(0, 11, 51, 0.7);
+}
+.price-container{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    height: auto;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: -20px 10px 60px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+.card:hover{
+    border: 3px solid;
+    border-image-source: linear-gradient(90.28deg, #001C80 0.26%, #153ABF 30.33%, #2B59FF 99.79%);
+}
+.card h6{
+    font-size: 1rem;
+    color: #000B33;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h3{
+    font-size: 3rem;
+    color: #000B33;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price-cards .card p{
+    font-size: 1rem;
+    color:rgba(0, 11, 51, 0.8);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card .card-line{
+    width: 250px;
+}
+.card ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+}
+.card li{
+    font-size: 1rem;
+    color: #000B33;
+}
+.card li img{
+    margin-right: 0.5rem    ;
+}
+.card button{
+    width: 150px;
+    height: 45px;
+    color: #FD4C5C;
+    border: 2px solid #FD4C5C;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.3s;
+
+}
+.card button:hover{
+    color: white;
+    background-color: #FD4C5C;
+}
