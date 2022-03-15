@@ -115,6 +115,8 @@
 @media(min-width:0px) and (max-width:480px){
     #pricing{
         width: 100%;
+        overflow-x: hidden;
+
         height: 2000px;
         display: flex;
         flex-direction: column;
@@ -147,6 +149,8 @@
 @media(min-width:481px) and (max-width:820px){
     #pricing{
         width: 100%;
+        overflow-x: hidden;
+
         height: 2000px;
         display: flex;
         flex-direction: column;

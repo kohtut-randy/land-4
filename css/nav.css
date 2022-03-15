@@ -55,6 +55,8 @@
 @media(min-width:0px) and (max-width:480px){
     #nav{
         width: 100%;
+        overflow-x: hidden;
+
     }
     .nav-bar{
         width: 85%;
@@ -74,6 +76,8 @@
     #nav{
         width: 100%;
         margin: 0px;
+        overflow-x: hidden;
+
     }
     .nav-bar{
         margin: auto;

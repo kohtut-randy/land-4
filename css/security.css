@@ -96,6 +96,8 @@
 @media(min-width:0px) and (max-width:480px){
     #security{
         width: 100%;
+        overflow-x: hidden;
+
         height: 800px;
         background-color: rgba(0, 28, 128, 1);
         display: flex;
@@ -160,6 +162,8 @@
 @media(min-width:481px) and (max-width:820px){
     #security{
         width: 100%;
+        overflow-x: hidden;
+
         height: 800px;
         background-color: rgba(0, 28, 128, 1);
         display: flex;

@@ -82,6 +82,8 @@
 @media(min-width:0px) and (max-width:480px){
     #track{
         width: 100%;
+        overflow-x: hidden;
+
         height: 1000px;
     }
     .track-container{
@@ -133,6 +135,8 @@
 @media(min-width:481px) and (max-width:820px){
     #track{
         width: 100%;
+        overflow-x: hidden;
+
         height: 1000px;
     }
     .track-container{

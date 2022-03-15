@@ -65,6 +65,8 @@
     #apps{
         width: 100%;
         position: relative;
+        overflow-x: hidden;
+
     }
     .apps-container{
         width: 100%;
@@ -106,6 +108,8 @@
     #apps{
         width: 100%;
         position: relative;
+        overflow-x: hidden;
+
     }
     .apps-container{
         width: 100%;
