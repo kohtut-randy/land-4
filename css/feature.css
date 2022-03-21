@@ -7,7 +7,6 @@
 .feature-container{
     width: 85%;
     margin: auto;
-    background-color: crimson;
     position: relative;
 }
 .feature-text{
@@ -180,5 +179,56 @@
     .feature-text{
         position: absolute;
         top:700px ;
+    }
+}
+@media(min-width:1500px){
+    #feature{
+        width: 100vw;
+        height: 1000px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .feature-container{
+        width: 85%;
+        margin: auto;
+        position: relative;
+    }
+    .feature-text .feature-text_header h6{
+        font-size: 2.5rem;
+    }
+    .feature-text .feature-text_header h3{
+        font-size: 3rem;
+    }
+    .feature-text .feature-text_header p{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .feature-text_info{
+        margin-top: 6rem;
+    }
+    .feature-text_info ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+    }
+    .feature-text_info ul li{
+        width: 600px;
+    }
+    .feature-text .feature-text_info h5{
+        font-size: 2rem;
+    }
+    .feature-text .feature-text_info p{
+        font-size: 1.5rem;
+    }
+    .feature-image .feature-phone{
+        width: 500px ;
+        position: absolute;
+        right: 100px;
+    }
+    .feature-image .e-59{
+        width: auto;
+        position: absolute;
+        right: 0px;
     }
 }

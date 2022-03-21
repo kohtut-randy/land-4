@@ -1,6 +1,8 @@
 #nav{
     width: 100%;
     margin: 0 0;
+    overflow-x: hidden;
+
 }
 .nav-bar{
     width: 85%;
@@ -92,5 +94,23 @@
     }
     .nav-login{
         display: none;
+    }
+}
+@media(min-width:1500px){
+    #nav{
+        width: 100vw;
+        overflow-x: hidden;        
+    }
+    .nav-logo img{
+        width: 130px;
+    }
+    .nav-item li{
+        font-size: 1.5rem;
+    }
+    .nav-login .login{
+        font-size: 1.5rem;
+    }
+    .nav-login .signup{
+        font-size: 1.5rem;
     }
 }

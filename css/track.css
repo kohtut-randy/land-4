@@ -1,6 +1,8 @@
 #track{
     width: 100%;
     background-color: rgba(43, 89, 255, 0.03);
+    overflow-x: hidden;
+
 }
 .track-container{
     width: 85%;
@@ -182,4 +184,39 @@
         border: none;
         color: white;
     }
+}
+@media(min-width:1500px){
+    #track{
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: 600px;
+        position: relative;
+    }
+    .track-mobile .iphone{
+        width:350px;
+        position: absolute;
+        top: 100px;
+    }
+    .track-mobile .e57{
+        position: absolute;
+        bottom: 0px;
+    }
+    .track-mobile .e58{
+        position: absolute;
+        left: 350px;
+    }
+    .track-text{
+        margin-top: 8rem;
+    }
+    .track-text h6{
+        font-size: 2rem;
+    }
+    .track-text h3{
+        font-size: 2.5rem;
+    }
+    .track-text p{
+        font-size: 1.5rem;
+    }
+    
 }

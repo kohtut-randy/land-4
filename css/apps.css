@@ -66,16 +66,17 @@
         width: 100%;
         position: relative;
         overflow-x: hidden;
-
     }
     .apps-container{
         width: 100%;
         display: flex;
         flex-direction: column;
         border-radius: 0px;
+        position: relative;
     }
     .apps-container h3{
         font-size: 2rem;
+        margin-left: 4rem;
     }
     .apps-container .apps-footer{
         display: flex;
@@ -85,12 +86,16 @@
     }
     .apps-footer p{
         font-size: 1rem;
+        color: black;
+        position: absolute;
+        right: 2px;
     }
     .apps-footer .apps-button{
         position: absolute;
         bottom: 20px;
         right: 0px;
-        
+        position: absolute;
+        right: 40px;
     }
     .apps-button .app-store img{
         width: 150px;
@@ -145,5 +150,24 @@
     .app-shapes{
         width: 500px;
         right: 0px;
+    }
+
+}
+@media(min-width:1500px){
+    #apps{
+        width: 100%;
+    }
+    .apps-container h3{
+        font-size: 3.5rem;
+    }
+    .apps-footer{
+        margin-top: 2.5rem;
+    }
+    .apps-container .apps-footer p{
+        font-size: 1.5rem;
+        width: 600px;
+    }
+    .apps-container .apps-footer .apps-button{
+        margin-right: 2rem;
     }
 }

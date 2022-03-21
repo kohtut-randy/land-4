@@ -8,6 +8,8 @@
     justify-content: center;
     position: relative;
     z-index: 0;
+    overflow-x: hidden;
+
 }
 .security-nav{
     display: flex;
@@ -223,5 +225,41 @@
         position: absolute;
         top: 470px;
         right: 30px;
+    }
+}
+@media(min-width:1500px){
+    #security{
+        width: 100vw;
+        height: 900px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        position: relative;
+    }
+    .security-nav ul li {
+        font-size: 2rem;
+    }
+    .line{
+        width: 900px;
+    }
+    .security-container{
+        width: 85%;
+    }
+    .security-img{
+        width: 900px;
+    }
+    .security-text h5{
+        font-size: 3.5rem;
+    }
+    .security-text p{
+        font-size: 1.5rem;
+        width: 600px;
+    }
+    .security-text button{
+        width: 200px;
+        height: 70px;
+    }
+    .e21{
+        position: absolute;
+        top:900px;
     }
 }
