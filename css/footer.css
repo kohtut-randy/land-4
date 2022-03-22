@@ -1,6 +1,7 @@
 #footer{
     width: 100%;
     margin-top: 3rem;
+    overflow-x: hidden;
 }
 .footer-container{
     width: 85%;

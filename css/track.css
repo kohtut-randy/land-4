@@ -85,8 +85,7 @@
     #track{
         width: 100%;
         overflow-x: hidden;
-
-        height: 1000px;
+        height: 1200px;
     }
     .track-container{
         width: 85%;

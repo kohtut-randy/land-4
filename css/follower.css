@@ -5,6 +5,8 @@
     padding: 1rem 0;
     margin: 0 auto;
     position: relative;
+    overflow-x: hidden;
+
 }
 .follower-container{
     width: 85%;

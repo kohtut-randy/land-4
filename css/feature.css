@@ -3,6 +3,8 @@
     height: 700px;
     z-index: 1;
     background-color: white;
+    overflow-x: hidden;
+
 }
 .feature-container{
     width: 85%;
