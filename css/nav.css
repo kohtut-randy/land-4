@@ -6,6 +6,7 @@
 .nav-bar{
     width: 85%;
     margin: auto;
+    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,17 +59,17 @@
 }
 
 .check-btn {
-    display: block;
+    display: none;
 }
 
 .navation__container-line {
-    display: block;
+    display: none;
 }
 
 .navation__container-line .lines {
     width: 25px;
     height: 3px;
-    background-color: aliceblue;
+    background-color: crimson;
     margin-bottom: 0.3rem;
     margin-right: 1rem;
 }
@@ -118,7 +119,7 @@
     .navation__container-line .lines {
         width: 25px;
         height: 3px;
-        background-color: aliceblue;
+        background-color: crimson;
         margin-bottom: 0.3rem;
         margin-right: 1rem;
     }
@@ -130,7 +131,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        background-color: black;
+        background-color:gray;
         z-index: 100;
         position: absolute;
         right: -5%;
@@ -141,7 +142,7 @@
         font-size: 1.5rem;
         color: aliceblue;
         text-decoration: none;
-        font-family: 'Roboto', sans-serif;
+        font-family:Arial, Helvetica, sans-serif;
     }
 
     .mobile button {
@@ -151,17 +152,18 @@
     }
 
     .mobile-button1 {
-        background-color: #001C80;
-        color: aliceblue;
-        padding: 1rem 2rem;
-        font-size: 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        color: crimson;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+
     }
     
     .mobile-button2 {
-        background-color: #FD4C5C;
-        color: aliceblue;
-        padding: 1rem 2rem;
-        font-size: 1.5rem;
+        background: rgba(255, 255, 255, 0.2);
+        color: crimson;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
     }
     .check-btn .lines {
         transition: all 0.5s ease-in;
@@ -174,6 +176,7 @@
 
     .nav-bar :checked ~ .check-btn .lines:nth-child(1) {
         transform: translateY(3.5px) rotate(225deg);
+        
     }
 
     .nav-bar :checked ~ .check-btn .lines:nth-child(3) {

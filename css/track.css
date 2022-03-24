@@ -2,6 +2,7 @@
     width: 100%;
     background-color: rgba(43, 89, 255, 0.03);
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 .track-container{

@@ -4,7 +4,7 @@
     z-index: 1;
     background-color: white;
     overflow-x: hidden;
-
+    overflow-y: hidden;
 }
 .feature-container{
     width: 85%;

@@ -1,6 +1,7 @@
 #apps{
     width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
     margin-top: 3rem;
 }
 .apps-container{
@@ -51,15 +52,15 @@
     position: absolute;
     right: 20px;
 }
-.apps-footer .app-store{
-    width: 180px;
-    height: 62px;
+.apps-footer .app-store img{
+    width: 150px;
+    height: auto;
     border-radius: 10px;
 
 }
-.apps-footer .google-play{
-    width: 180px;
-    height: 62px;
+.apps-footer .google-play img{
+    width: 150px;
+    height: auto;
     border-radius: 10px;
 }
 @media(min-width:0px) and (max-width:480px){
