@@ -131,7 +131,6 @@
     #pricing{
         width: 100%;
         overflow-x: hidden;
-
         height: 2000px;
         display: flex;
         flex-direction: column;
@@ -154,6 +153,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        
     }
     .price-container .card{
         width: 250px;
